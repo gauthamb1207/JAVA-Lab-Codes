@@ -10,5 +10,7 @@ public static void main(String[] args)
 	System.out.println(name);
 	int myNum = 15;
 	System.out.println(myNum);
+	myNum=20;
+	System.out.println(myNum);
 }
 }
