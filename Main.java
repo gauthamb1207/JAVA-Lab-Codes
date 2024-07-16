@@ -8,5 +8,7 @@ public static void main(String[] args)
 	System.out.println("To infinity and beyond");
 	String name="John";
 	System.out.println(name);
+	int myNum = 15;
+	System.out.println(myNum);
 }
 }
