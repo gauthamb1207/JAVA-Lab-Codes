@@ -12,5 +12,8 @@ public static void main(String[] args)
 	System.out.println(myNum);
 	myNum=20;
 	System.out.println(myNum);
+	final int Num=15;
+	System.out.println(Num);
+	Num=29; /* error thrown while compiling the file */ /* error: cannot assign a value to final variable Num */
 }
 }
