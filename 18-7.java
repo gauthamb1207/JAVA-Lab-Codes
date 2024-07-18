@@ -14,5 +14,11 @@ public static void main(String[] args)
 	int sum4=a+sum3;
 	System.out.println(sum4); */ /* throws error error: incompatible types: String cannot be converted to int
         				int sum4=a+sum3; */
+	int x,y;
+	x=20;
+	y=(x==1)?61:90;
+	System.out.println("Value of y is: "+ y);
+	y=(x==20)?61:90;
+	System.out.println("Value of y is: "+y);
 }
 }
