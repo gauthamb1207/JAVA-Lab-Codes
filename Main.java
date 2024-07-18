@@ -7,5 +7,8 @@ public static void main(String[] args)
 	double myDouble=myInt;
 	System.out.println(myInt);
 	System.out.println(myDouble);
+	System.out.println(sum1);
+	System.out.println(sum2);
+	System.out.println(sum3);
 }
 }
