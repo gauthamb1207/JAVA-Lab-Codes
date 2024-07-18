@@ -20,5 +20,7 @@ public static void main(String[] args)
 	System.out.println("Value of y is: "+ y);
 	y=(x==20)?61:90;
 	System.out.println("Value of y is: "+y);
+	String txt="abcdefghijklmnopqrstuvwxyz";
+	System.out.println("The length og the txt string is: "+txt.length());
 }
 }
