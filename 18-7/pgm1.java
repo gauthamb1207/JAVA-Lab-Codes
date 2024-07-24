@@ -1,6 +1,6 @@
-public class Main
+public class Pgm1
 {
-public static void pgm1(String[] args)
+public static void main(String[] args)
 {
 	int myInt=9;
 	double myDouble=myInt;
