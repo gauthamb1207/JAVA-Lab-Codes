@@ -3,6 +3,7 @@ class Pgm4 {
         int time = 20;
         if (time<18){
             System.out.println("good morning");
+        }
         else
         {
             System.out.println("good evening");
