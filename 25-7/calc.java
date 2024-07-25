@@ -67,18 +67,19 @@ class Main{
                     
                     break;
             }
-                System.out.println("Do you want to coninue? Yes / No");
-                String yn;
-                yn=sc.nextLine();
-                if(yn=="yes")
-                {
-                    continue;
-                }
-                else if(yn=="no")
-                {
-                    System.out.println("Thank you");
-                    break;
-                }
+            System.out.println("Do you want to coninue? 1 for yes / 2 for no");
+            int yn;
+            Scanner cc = new Scanner(System.in);
+            yn=cc.nextInt();
+            if(yn==2)
+            {
+                System.out.println("Thank you");
+               break;
+            }
+            else
+            {
+                continue;
+            }
                 
             
         }
